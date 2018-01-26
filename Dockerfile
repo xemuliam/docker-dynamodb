@@ -15,4 +15,3 @@ VOLUME     ${DYNAMODB_HOME}/dynamodb_local_db
 WORKDIR    ${DYNAMODB_HOME}
 ENTRYPOINT ["./start_dynamodb.sh"]
 CMD        ["-dbPath", "./dynamodb_local_db", "-sharedDb"]
-
